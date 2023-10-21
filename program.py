@@ -6,8 +6,9 @@ wiek = input("Podaj swoj wiek: ")
 region = input("Podaj region: ")
 wiek = int(wiek)
 
+
 def aperol():
-    if plec == 'K' and wiek == 30:
+    if plec == 'K' and wiek >= 30:
         print("Happy you! Otrzymjesz darmowego aperola")
     else:
         print("Niestety, nie spełniasz kryteriów do otrzymania damarmowego drinka")
