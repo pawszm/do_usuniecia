@@ -1,3 +1,10 @@
+def wiek(w):
+    if w >= 120:
+        print("Otrzymujesz darmowy znicz")
+    else:
+        print("Czym mogę służyć?")
+print(wiek(w))
+
 def aperol(plec, wiek):
     if plec == 'K' and wiek >= 30:
         print("Happy you! Otrzymjesz darmowego aperola")
