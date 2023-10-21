@@ -3,7 +3,7 @@ w=int(w)
 
 def wiek(w):
     if w >= 120:
-        print("Takich dziadów nie obsługujemy")
+        print("Otrzymujesz darmowy znicz")
     else:
         print("Czym mogę służyć?")
 print(wiek(w))
