@@ -20,7 +20,7 @@ def inputGender():
   
 def wiek(w):
     if w >= 120:
-        print("Otrzymujesz darmowy znicz"
+        print("Otrzymujesz darmowy znicz")
 
 def aperol(plec, wiek):
     if plec == 'K' and wiek >= 30 and wiek < 120:
