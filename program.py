@@ -6,7 +6,7 @@ def podaj_wiek():
             wiek = int(w)
             if wiek >= 0:
                 return wiek
-        print("Nieprawidłowy wiek %s. Musi być liczbą całkowitą większą od zera a jest" % (w,))
+        print("Nieprawidłowy wiek %s. Musi być liczbą całkowitą większą lub równą zero a jest" % (w,))
 
 def inputGender():
     plec = ''
