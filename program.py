@@ -1,12 +1,3 @@
-
-
-wybor_plci = ['K', 'M']
-plec = input("Podaj swoja plec: ")
-wiek = input("Podaj swoj wiek: ")
-region = input("Podaj region: ")
-wiek = int(wiek)
-
-
 def aperol(plec, wiek):
     if plec == 'K' and wiek >= 30:
         print("Happy you! Otrzymjesz darmowego aperola")
@@ -19,15 +10,12 @@ def malboro(plec, wiek, region):
     else:
         print("Niestety, nie spełniasz kryteriów do otrzymania darmowej paczki papierosów Malboro :(")
 
-print(aperol())
-print(malboro())
-
-
-
-
-
-
-
-
-
-
+def wybierz_region():
+    while True:
+        region = input("Wybierz region(EUR or USA): ").upper()
+        if region == "EUR":
+            return "E"
+        elif region == "USA":
+            return "U"
+        else:
+            print("Niepoprawny wybór regionu")
