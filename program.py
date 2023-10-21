@@ -14,4 +14,3 @@ def inputGender():
             plec = 'M'
     return plec
 plec = inputGender()
-print(plec)
