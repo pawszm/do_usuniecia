@@ -7,13 +7,13 @@ region = input("Podaj region: ")
 wiek = int(wiek)
 
 
-def aperol():
+def aperol(plec, wiek):
     if plec == 'K' and wiek >= 30:
         print("Happy you! Otrzymjesz darmowego aperola")
     else:
         print("Niestety, nie spełniasz kryteriów do otrzymania damarmowego drinka")
 
-def malboro():
+def malboro(plec, wiek, region):
     if plec == 'M' and wiek >= 40 and region == 'U':
         print("Gratulacje! Otrzymujesz jedną paczkę papierosów Malboro gratis!")
     else:
