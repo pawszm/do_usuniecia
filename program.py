@@ -1,5 +1,14 @@
-w = int(input("Podaj wiek:"))
+def aperol(plec, wiek):
+    if plec == 'K' and wiek >= 30:
+        print("Happy you! Otrzymjesz darmowego aperola")
+    else:
+        print("Niestety, nie spełniasz kryteriów do otrzymania damarmowego drinka")
 
+def malboro(plec, wiek, region):
+    if plec == 'M' and wiek >= 40 and region == 'U':
+        print("Gratulacje! Otrzymujesz jedną paczkę papierosów Malboro gratis!")
+    else:
+        print("Niestety, nie spełniasz kryteriów do otrzymania darmowej paczki papierosów Malboro :(")
 
 def wybierz_region():
     while True:
@@ -10,12 +19,3 @@ def wybierz_region():
             return "U"
         else:
             print("Niepoprawny wybór regionu")
-
-
-region = wybierz_region()
-print("wybrany region: ", region)
-
-if w > 17:
-    print("Stary cap")
-else:
-    print("Niepełnioletni")
