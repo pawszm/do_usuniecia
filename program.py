@@ -45,3 +45,15 @@ def wybierz_region():
             return "U"
         else:
             print("Niepoprawny wybór regionu")
+
+wiek_os = podaj_wiek()
+plec = inputGender()
+region = wybierz_region()
+
+if (wiek_os >= 18 and region == "E") or (wiek_os >= 21 and region == "U"):
+    print("Sprzedajemy alkohol")
+    wiek(wiek_os)
+    aperol(plec,wiek_os)
+    malboro(plec,wiek_os,region)
+else:
+    print("Osoba niepełnoletnia nie sprzedajemy")
