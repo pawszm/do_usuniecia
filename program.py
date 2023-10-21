@@ -1,5 +1,8 @@
-w = int( input("Podaj wiek:") )
-if w > 17:
-    print("Stary cap")
+
+w = input("Podaj wiek: ")
+w=int(w)
+
+if w >= 120:
+    print("Takich dziadów nie obsługujemy")
 else:
-    print("Niepełnioletni")
+    print("Czym mogę służyć?")
