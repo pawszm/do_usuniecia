@@ -1,9 +1,18 @@
+def inputGender():
+    plec = ''
+    while plec == '':
+        gender = input('Podaj płeć: (K) - kobieta, (M) - mężczyzna: ')
+        if gender == 'K':
+            plec = 'K'
+        elif gender == 'M':
+            plec = 'M'
+    return plec
+  
 def wiek(w):
     if w >= 120:
         print("Otrzymujesz darmowy znicz")
     else:
         print("Czym mogę służyć?")
-print(wiek(w))
 
 def aperol(plec, wiek):
     if plec == 'K' and wiek >= 30:
